@@ -82,7 +82,7 @@ public class PedroPathTest extends LinearOpMode {
 
     public Path path3() {
         return Paths.line(point2, point3).tangent();
-    }
+}
 
     public Path path4() {
         return Paths.curve(point3, point4Control1, point4).tangent();
