@@ -28,7 +28,6 @@ public class Drive extends LinearOpMode {
 
         Servo lift = hardwareMap.get(Servo.class, "Lift");
 
-
         frontLeft.setDirection(DcMotor.Direction.FORWARD);
         frontRight.setDirection(DcMotor.Direction.FORWARD);
         backLeft.setDirection(DcMotor.Direction.FORWARD);
