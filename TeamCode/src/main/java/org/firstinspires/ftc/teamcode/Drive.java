@@ -36,8 +36,6 @@ public class Drive extends LinearOpMode {
 
         backLauncher.setDirection(DcMotor.Direction.REVERSE);
 
-
-
         waitForStart();
 
         if (opModeIsActive()) {
